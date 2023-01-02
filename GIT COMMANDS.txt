@@ -26,6 +26,8 @@ git branch [name of new branch] => para makagawa ng bagong branch
 
 git checkout [name of branch you want to be on] => parang same ren to sa cd sa command line. Parang change directory siya sa git.
 
+git checkout -b [name of new emergency branch] => ginagawa to kapag may gusto kang baguhin sa branch mo tas may error pero ayaw mo ren masira yung pinakamaster branch. So gagamitin mo itong command na ito para magkaroon ka ulet ng branch tas nandun ka sa mismong branch na yun
 
+git merge [the merge file you want to merge] => the merge file you want to merge
 
-
+git branch -d [branch you want to delete] => ginagawa ko lang toh para madelete yung emergency file kung necessary alng siya delete
