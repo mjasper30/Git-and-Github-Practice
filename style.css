@@ -1,0 +1,10 @@
+.font {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: blue;
+}
+
+.border {
+  border-color: red;
+  border-radius: 20px;
+}
