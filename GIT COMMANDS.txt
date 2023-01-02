@@ -1,0 +1,31 @@
+git GIT COMMANDS
+
+git --version => Ginagamit toh para malaman kung may nakainstall na na git sa pc mo at malaman kung anong version ng git mo 
+
+git init => Kapag nacommand mo na ito mag kakaroon ng git hub file sa folder kung saan yung current directory sa file mo. Eto yung magsisilbing file para makapag upload at commit sa github eto yung unang step para magkaroon ng git file sa folder ng project mo
+
+git add .  / git add [You want to Add] => eto naman yung command para maready mo yung paguupload ng file sa git repository mo. We use add . para maupload lahat ng file sa git hub pero kung specific tatawagin mo yung mismong pangalan
+
+git status => eto naman yung command na kung saan malalaman mo kung ano yung mga file na ready to commit 
+
+git commit -m "First Commit" => eto naman yung magsisilbing ready set para maupload sa github yung file. yung naka quotation mark eto yung description ng changes sa file so dedescribe mo don kung ano yung nangyare 
+
+git remote add origin [LINK] => eto naman yung magsisilbing connection sa link na naka assign don sa project. So cocopy mo yung link na yon para makuha yung origin ng file
+
+git push -u origin master => eto na yung last part ng command in which uupdate mo na sa github yung lahat ng changes sa ginawa mo sa code papuntang repository sa github
+
+-a => ginamit siya kung gusto mo mag commit ng walang staging na magaganap or walang mangyayaring [git add]
+
+git log => gagamitin mo toh kapag gusto mo matrack yung history ng commits sa repository
+
+git status --short => use para makita kung ano yung mga untracked, add file stage, modified file, and deleted file. parang same lang ren siya sa git status
+
+git branch => para macheck mo lahat ng existing branches
+
+git branch [name of new branch] => para makagawa ng bagong branch
+
+git checkout [name of branch you want to be on] => parang same ren to sa cd sa command line. Parang change directory siya sa git.
+
+
+
+
