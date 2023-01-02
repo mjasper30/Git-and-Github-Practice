@@ -31,3 +31,5 @@ git checkout -b [name of new emergency branch] => ginagawa to kapag may gusto ka
 git merge [the merge file you want to merge] => the merge file you want to merge
 
 git branch -d [branch you want to delete] => ginagawa ko lang toh para madelete yung emergency file kung necessary alng siya delete
+
+git fetch => ginagamit siya para makuha mo lahat ng change history na natracked sa branch or repository
